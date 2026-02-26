@@ -1,8 +1,8 @@
 # ML-pinamar-property-valuation
 
-#Pinamar Real Estate Price Prediction with Machine Learning
+#Pinamar Real Estate Price Prediction with Machine Learning 
 
-## Project Description
+## Project Description - English
 This project develops a comprehensive Machine Learning pipeline to estimate the market value (in USD) of properties in the coastal city of Pinamar. The main objective is to reduce uncertainty in real estate appraisals through a data-driven model, overcoming the traditional subjectivity of the sector.
 
 ## Key Features and Technical Decisions
@@ -12,7 +12,7 @@ This project develops a comprehensive Machine Learning pipeline to estimate the 
 * **Outlier Handling:** Application of a logarithmic transformation to the target variable (price) to stabilize gradients and prevent ultra-luxury properties from distorting the model's learning.
 * **Advanced Modeling:** Training and hyperparameter tuning (using Random Search and Keras Tuner) of multiple algorithms, including **Gradient Boosting**, **Random Forest**, and a **Robust Neural Network** (optimized with Batch Normalization and LeakyReLU).
 
-## 📂 Project Structure
+## Project Structure
 The workflow is modularly divided into 5 notebooks to simulate an organized production environment:
 
 1. `cleaning.ipynb`: Data cleaning, missing values treatment, and format correction.
@@ -34,7 +34,7 @@ Instead of relying exclusively on theoretical metrics like R², the model was ev
 * **Serialization:** Joblib
 * **Visualization:** Matplotlib, Seaborn
 
-## Descripción del Proyecto
+## Descripción del Proyecto - Español
 Este proyecto desarrolla un pipeline completo de Machine Learning para estimar el valor de mercado (en USD) de propiedades en la ciudad costera de Pinamar. El objetivo principal es reducir la incertidumbre en las tasaciones inmobiliarias mediante un modelo basado en datos, superando la subjetividad tradicional del sector.
 
 ## Características Principales y Decisiones Técnicas
