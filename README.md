@@ -5,7 +5,7 @@
 ## Project Description
 This project develops a comprehensive Machine Learning pipeline to estimate the market value (in USD) of properties in the coastal city of Pinamar. The main objective is to reduce uncertainty in real estate appraisals through a data-driven model, overcoming the traditional subjectivity of the sector.
 
-## \Key Features and Technical Decisions
+## Key Features and Technical Decisions
 * **Data Source and Temporal Split:** Data was collected via web scraping from the country's most widely used real estate platform. To ensure a realistic evaluation and prevent overfitting, a time-based split was applied: an initial extraction formed the training (`train`) and validation (`validation`) sets, while a subsequent extraction, consisting of the most recent listings, was strictly reserved for the testing (`test`) set.
 * **Business-Oriented Feature Engineering:** Creation of key variables that add real value to the appraisal, such as `es_lujosa_hardware`, `ratio_bano_dormitorio`, and `es_moderna_estrenar`.
 * **Data Leakage Prevention:** Strict implementation of Scikit-Learn's `ColumnTransformer` and `Pipeline` to isolate preprocessing across the training, validation, and test sets.
